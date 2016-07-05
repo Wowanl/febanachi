@@ -7,11 +7,10 @@ function fib(n) {
     b = c;
   }
   return b;
+  
 }
 
-alert( fib(4) ); 
-alert( fib(5) ); 
-alert( fib(6) ); 
-alert( fib(7) );
-alert( fib(8) );
-alert( fib(9) );
+var n = prompt("enter your number");
+
+
+alert (fib (n));
